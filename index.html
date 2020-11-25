@@ -3,19 +3,20 @@
 <head>
 	<title>RE:</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 	
 	<div class = "container">
 	<header class = "main-header">
-	<h1 class = "main-lorem-header">Lorem Ipsum</h1>
+	<h1>Lorem Ipsum</h1>
 	<nav class = "nav">
-		<ul>
-		<li><a href="index.html#chef-nav">Home</a></li>
-		<li><a href="#">Our Treats</a></li>
-		<li><a href="#">Week's Special</a></li>
-		<li><a href="#">Chefs</a></li>
+		<ul class = 'nav-list'>
+			<a href="index.html#chef-nav"><li>Home</li></a>
+			<a href="#">	<li>Our Treats</li></a>
+			<a href="#">	<li>Week's Special</li></a>
+			<a href="#"><li>Chefs</li></a>
 		
 		</ul>
 	</nav>	
@@ -92,7 +93,7 @@
 	</div>
 </div>
 
-
+<div class="container">
 	<footer class = "main-footer">
 		
 		<!--<div><a href="#"><img src="img/fblogo.png" class = "footer-image"></a></div> 
@@ -100,19 +101,14 @@
 		<div class = "email-input-container">
 			<h4 class = "subscribe-header">Subscribe for our upcoming treats!</h4>
 			<form action="/submit-email" method = "POST">
-			<input type = "email" name="mail" placeholder="Enter your email address....">
+			<input type = "email" name="mail" class= 'email-input' placeholder="Enter your email address....">
 			<input type="submit" class = "submit-btn" value="Subscribe!">
 			</div>
 			</form>
 	
-			<nav class = "footer-nav">
-					<ul class = "footer-nav-list">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Our Treats</a></li>
-						<li><a href="#">Week's Special</a></li>
-						<li><a href="#">Chefs</a></li>
-					</ul>
-				</nav>
+
+		</div>
+			
 	
 
 	<!--<div>Lorem aims to serve the best coffee and beverages, provide a relaxing atmosphere and soothing experience to people.</div>
